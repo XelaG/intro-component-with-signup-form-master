@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    max-width: 100%;
+    background: url("images/bg-intro-desktop.png") center center repeat fixed;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container-1, .container-2, .form-container,.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.container-2 {
+    width:50%;
+}
+
+.main-title {
+    width: 80%;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.under-title {
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.seven-day-offer {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 6px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+
+b{
+    font-weight: 700;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.registration-form {
+    width: 80%;
+}
+
+.input-text {
+    margin-bottom: 3%;
+    border-radius: 6px;
+    background-color: white;
+    border-width: 1px;
+    border-color: hsl(246, 25%, 77%);
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color:hsl(249, 10%, 26%);
+}
+
+.input-text:focus {
+    border-width: 1px;
+    border-color: hsl(249, 10%, 26%);
+    outline: none !important;
+}
+
+.terms-services {
+    margin-top: 3%;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-size: 8px;
+}
+
+.terms-services-bold {
+    color: hsl(0, 100%, 74%);
+}
+
+.submit-button {
+    background-color: hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    border: none;
+    padding: 3% 0;
+    border-radius: 6px;
+    font-weight: 700;
+}
